@@ -1,0 +1,40 @@
+@import "styles.css";
+@font-face {
+    font-family: 'Hyundai Sans';
+    src: local('Hyundai Sans Head Office Regular'), local('Hyundai-Sans-Head-Office-Regular'), url('HyundaiSansHeadOffice-Regular.woff2') format('woff2'), url('HyundaiSansHeadOffice-Regular.woff') format('woff'), url('HyundaiSansHeadOffice-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.heading h1,
+.heading h2 {
+    margin-left: 12%;
+    text-align: left;
+    font-family: 'Hyundai Sans';
+}
+
+.images {
+    margin-left: 12%;
+}
+
+.text_over2 {
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    position: absolute;
+    color: white;
+    font-family: 'Hyundai sans';
+    font-size: 20px;
+    top: 300px;
+    left: 980px;
+}
+
+.text_over1 {
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    position: absolute;
+    color: white;
+    font-family: 'Hyundai sans';
+    font-size: 10px;
+    top: 295px;
+    left: 965px;
+}

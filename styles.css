@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Hyundai Sans';
+    src: local('Hyundai Sans Head Office Regular'), local('Hyundai-Sans-Head-Office-Regular'), url('HyundaiSansHeadOffice-Regular.woff2') format('woff2'), url('HyundaiSansHeadOffice-Regular.woff') format('woff'), url('HyundaiSansHeadOffice-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navi {
+    font-family: 'Hyundai Sans';
+    margin-top: 20px;
+    margin-left: 4%;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px;
+    text-align: center;
+    text-indent: 1.3cm;
+}
+
+#navi li {
+    float: left;
+}
+
+.nav img {
+    image-rendering: optimizeQuality;
+    width: 43%;
+    height: 43%;
+}
+
+li a:hover {
+    color: rgb(122, 120, 120);
+}
+
+.nav1 a {
+    color: rgb(51, 50, 50);
+    font-family: 'Hyundai Sans';
+    text-decoration: none;
+}
+
+.navi2 li::before {
+    content: ">";
+    color: rgb(133, 132, 132);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    position: sticky;
+}
+
+.navi2 {
+    color: rgb(51, 134, 243);
+    text-indent: 11px;
+    list-style-type: none;
+    font-family: 'Hyundai Sans';
+    font-size: 13.8px;
+    margin-left: 9%;
+    text-decoration: none;
+}
+
+.navi2 li,
+.navi2 a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    float: left;
+}
+
+.dropdown-content a:hover,
+.dropdown:hover {
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+}
+
+.dropdown-content {
+    left: 900px;
+    width: 190px;
+    box-shadow: 5px 5px 20px #2e2e2e;
+    background-color: #f2f2f2;
+    display: none;
+    list-style-type: none;
+    position: absolute;
+}
+
+#img1 img {
+    image-rendering: optimizeQuality;
+    margin-left: 3%;
+    width: 95%;
+    height: auto;
+}
+
+.text_for_img1 {
+    text-rendering: optimizeLegibility;
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Hyundai sans';
+    font-size: 50px;
+    top: 170px;
+    left: 190px;
+}
+
+.text2_for_img1 {
+    text-rendering: optimizeLegibility;
+    position: absolute;
+    color: whitesmoke;
+    font-family: 'Hyundai sans';
+    font-size: 20px;
+    top: 230px;
+    left: 240px;
+}
+
+.description {
+    font-family: 'Hyundai Sans';
+    text-align: center;
+}
+
+.description h1 {
+    font-size: 45px;
+}
+
+.description h2 {
+    font-size: 30px;
+}
+
+.description p {
+    line-height: 1.6;
+}
+
+.img2 {
+    text-align: center;
+}
+
+table {
+    margin-left: 5%;
+    font-family: 'Hyundai Sans';
+    text-align: center;
+    padding: 30px;
+}
+
+table td {
+    padding: 30px;
+}
+
+#or {
+    color: rgb(255, 72, 0);
+    font-size: 40px;
+}
+
+.footer {
+    padding: 30px 0;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0%;
+    font-family: 'Hyundai Sans';
+}
+
+.footer img {
+    width: 1.8cm;
+    height: auto;
+}
+
+.footer img:hover {
+    opacity: 0.7;
+}

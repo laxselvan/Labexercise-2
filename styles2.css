@@ -1,0 +1,11 @@
+@import "styles1.css";
+.text_over2 {
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    position: absolute;
+    color: white;
+    font-family: 'Hyundai sans';
+    font-size: 20px;
+    top: 315px;
+    left: 980px;
+}
